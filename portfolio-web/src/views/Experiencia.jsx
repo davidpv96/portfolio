@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experiencia = () => {
     return (
-        <div className="container mx-auto p-10 relative mb-20 dark:bg-neutral-900 ">
+        <div className="container mx-auto p-10 relative mb-20 dark:bg-neutral-900 dark:md:bg-neutral-950 ">
           <h1 className="text-3xl font-bold mb-6 text-center border-b-2 border-y-yellow-500 pb-2 dark:text-white">Experiencia</h1>
     
           <div className="flex flex-col items-center space-y-8">

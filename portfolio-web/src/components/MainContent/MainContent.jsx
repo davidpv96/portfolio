@@ -66,7 +66,7 @@ const MainContent = ({ page }) => {
          {/* Información Adicional */}
       <div className="  w-full text-center mb-5 mt-5 bg-gray-100 p-6 rounded-xl dark:bg-zinc-800">
         <div className="flex items-center mb-4 border-b border-neutral-200 dark:border-neutral-500 pb-2">
-          <div className='bg-white dark:bg-neutral-950 pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
+          <div className='bg-white dark:bg-neutral-900 pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
           <img src={PhoneIcon} alt="Phone Icon" className="w-5 h-5 mr-2 " />
           </div>
           <div className='block '>
@@ -76,7 +76,7 @@ const MainContent = ({ page }) => {
         </div>
 
         <div className="flex items-center mb-4  border-b border-neutral-200 dark:border-neutral-500  pb-2">
-          <div className='bg-white dark:bg-neutral-950 pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
+          <div className='bg-white dark:bg-neutral-900 pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
           <img src={EmailIcon}  alt="Email Icon" className="w-5 h-5 mr-2" />
           </div>
           <div className='block'>
@@ -86,7 +86,7 @@ const MainContent = ({ page }) => {
         </div>
 
         <div className="flex items-center mb-4">
-          <div className=' dark:bg-neutral-950 bg-white pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
+          <div className=' dark:bg-neutral-900 bg-white pr-2 pl-3 pt-2 pb-2 mr-3 rounded-lg'>
           <img src={LocationIcon} alt="Location Icon" className="w-5 h-5 mr-2" />
           </div>
           <div className='block'>

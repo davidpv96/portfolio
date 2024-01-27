@@ -23,7 +23,7 @@ const Proyectos = () => {
       ];
     
       return (
-        <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 dark:bg-neutral-950">
+        <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 dark:bg-neutral-900 dark:md:bg-neutral-950">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-lg overflow-hidden shadow-lg text-center dark:bg-neutral-800">
               <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
