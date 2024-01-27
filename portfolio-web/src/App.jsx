@@ -34,7 +34,7 @@ const App = () => {
 
 <div className='App'>
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
-        <div className="md:bg-fondo">
+        <div className="md:bg-fondo ">
         <Routes>
           {isDesktop ? (
             <>
