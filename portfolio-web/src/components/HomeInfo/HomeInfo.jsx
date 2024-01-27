@@ -11,12 +11,12 @@ const HomeInfo = () => {
  
 
   <div className="mb-5">
-    <p className="text-lg">
+    <p className="text-lg dark:text-white">
       Soy <b>Full Stack Developer Jr.</b> Graduado de Henry Bootcamp con 8 meses de formación.
       Bachiller en Ingeniería Informática. Mis habilidades incluyen <b>HTML, CSS, JavaScript,
       ReactJS, Redux, NodeJS, Express, Sequelize, y manejo de Git y GitHub.</b>
     </p>
-    <p className="text-lg mt-4">
+    <p className="text-lg mt-4 dark:text-white">
       He adquirido experiencia en el desarrollo de proyectos personales y estoy apasionado por
       aprender continuamente para mejorar mis habilidades técnicas y blandas.
     </p>

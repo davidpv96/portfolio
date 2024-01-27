@@ -10,28 +10,28 @@ const Proyectos = () => {
           title: 'Food Express App',
           image: FoodExpressImg,
           technologies: ['React', 'Redux', 'Bootstrap', 'Node.js', 'Express', 'Sequelize' , 'PostgreSQL'],
-          visitLink: 'https://ejemplo.com/proyecto1',
+          visitLink: 'https://foodexpress-alpha.vercel.app/',
         },
         {
           id: 2,
           title: 'Drivers APP',
           image: DriversImg,
           technologies: ['React', 'Redux', 'Bootstrap', 'Node.js', 'Express', 'Sequelize' , 'PostgreSQL'],
-          visitLink: 'https://ejemplo.com/proyecto2',
+          visitLink: 'https://github.com/davidpv96/PI-DRIVER-HENRY',
         },
        
       ];
     
       return (
-        <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 dark:bg-neutral-950">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white rounded-lg overflow-hidden shadow-md text-center">
+            <div key={project.id} className="bg-white rounded-lg overflow-hidden shadow-lg text-center dark:bg-neutral-800">
               <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
     
               <div className="p-4">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-2 dark:text-white">{project.title}</h3>
     
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-600 mb-4 dark:text-white">
                   Tecnologías: {project.technologies.join(', ')}
                 </p>
     

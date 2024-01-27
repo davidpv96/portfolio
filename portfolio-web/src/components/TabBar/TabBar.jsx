@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const TabBar = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-0  bg-slate-800 text-white py-4 px-2 flex justify-around shadow-md  md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 dark:bg-neutral-950  bg-slate-800 text-white py-4 px-2 flex justify-around shadow-md  md:hidden">
     <Link to="/" className="flex flex-col items-center justify-center hover:text-gray-300 focus:text-gray-300">
           <svg width="30px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_iconCarrier">

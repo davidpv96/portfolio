@@ -24,9 +24,9 @@ const Contacto = () => {
     };
   
     return (
-      <div className="container mx-auto p-10 mb-20">
-        <h2 className="text-3xl font-bold mb-6 text-center">Envíame un Mensaje</h2>
-        <form className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
+      <div className="container mx-auto p-10 mb-20 dark:bg-neutral-950">
+        <h2 className="text-3xl font-bold mb-6 text-center dark:text-white">Envíame un Mensaje</h2>
+        <form className="bg-gray-100  shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="nombre">
               Nombre
@@ -94,7 +94,7 @@ const Contacto = () => {
   
         <div className="text-center">
 
-          <h2 className="text-3xl font-bold mb-2">Datos de Contacto</h2>
+          <h2 className="text-3xl font-bold mb-2 dark:text-white">Datos de Contacto</h2>
           <div className="bg-gray-100 shadow-md rounded p-4 mb-3">
           <p className="text-xl mb-2">
              davidpv96@hotmail.com

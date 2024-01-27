@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState,useEffect} from 'react';
 import { Routes, Route } from "react-router-dom";
 import Landing from './views/Landing/Landing';
 import Proyectos from './views/Proyectos';
@@ -17,12 +17,23 @@ import { useMediaQuery } from 'react-responsive';
 
 const App = () => {
 
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    if(darkMode === true){
+      document.querySelector('html').classList.add('dark')
+    }
+    else{
+      document.querySelector('html').classList.remove('dark')
+    }
+  
+  }, [darkMode])
+  
   const isDesktop = useMediaQuery({ minWidth: 769 });
   return (
     <>
 
 <div className='App'>
-        <Header />
+        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="md:bg-fondo">
         <Routes>
           {isDesktop ? (

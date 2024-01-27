@@ -38,11 +38,11 @@ const Tecnologias= () => {
     
         return (
             <div className="container mx-auto p-8 mb-20">
-            <h2 className="text-3xl font-bold mb-4 text-center">Tecnologías que Domino</h2>
+            <h2 className="text-3xl font-bold mb-4 text-center dark:text-white">Tecnologías que Domino</h2>
       
             <div className="grid grid-cols-3 gap-4">
               {technologies.map((tech, index) => (
-                <div key={index} className="text-center border rounded-lg p-4">
+                <div key={index} className="text-center border rounded-lg p-4 dark:bg-white">
                   <img src={tech.image} alt={`Technology ${index + 1}`} className="mx-auto mb-2 object-contain w-16 h-16" />
                 </div>
               ))}
