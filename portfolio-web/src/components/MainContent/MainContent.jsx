@@ -17,7 +17,7 @@ import DownloadIcon from '../../assets/img/info/descargar.png'
 const MainContent = ({ page }) => {
   console.log('Current page:', page);
   return (
-    <div className="container mx-auto p-14 flex flex-col items-center md:flex-row md:p-0 md:py-28 md:items-start dark:bg-zinc-900 dark:bg-gradient-to-r  from-stone-500 to-orange-100 dark:bg-cover">
+    <div className="container mx-auto p-14 flex flex-col items-center md:flex-row md:p-0 md:py-28 md:items-start dark:bg-zinc-900 dark:md:bg-gradient-to-r  from-stone-500 to-orange-100 dark:bg-cover">
       <h1 className="text-4xl font-bold mb-4  md:hidden dark:text-white" >Sobre Mí</h1>
     <div className='dark:md:bg-neutral-950 md:sticky md:top-40 md:flex md:flex-col md:items-center md:w-1/3 md:bg-white md:p-14 md:mt-28 md:mr-10 md:rounded-2xl md:shadow-lg '>
     <div className="relative flex flex-col md:flex-column md:items-center">
